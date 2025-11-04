@@ -3,6 +3,16 @@
   padding: 0px;
 }
 
+p, li, a {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+}
+
 header {
   background-color: black;
   display: flex;
@@ -26,7 +36,7 @@ header nav a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/banner2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 120px;
+  padding: 200px;
 }
 #intro h1 {
   font-size: 70px;
@@ -84,7 +94,7 @@ main div article img {
 }
 
 .cta {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("images/cta01.jpg");
+  background-image: linear-gradient(rgba(183, 85, 85, 0.5019607843), rgba(183, 85, 85, 0.5019607843)), url("images/cta01.jpg");
   display: flex;
   flex-direction: column;
   gap: 20px;
